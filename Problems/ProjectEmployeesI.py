@@ -3,7 +3,7 @@
  *
  * ProjectEmployeesI
  * 
- * Difficulty: Level
+ * Difficulty: Easy
  * Category: undefined
  * Runtime: N/A
  * Memory: N/A
