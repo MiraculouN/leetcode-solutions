@@ -1,5 +1,5 @@
 /*
- * @lc app=leetcode id=1933152876 lang=cpp
+ * @lc app=leetcode id=1990520520 lang=cpp
  *
  * NumberOfStepsToReduceANumberInBinaryRepresentationToOne
  * 
