@@ -1,5 +1,5 @@
 /*
- * @lc app=leetcode id=1990322236 lang=cpp
+ * @lc app=leetcode id=1990521334 lang=cpp
  *
  * SmallestSubarraysWithMaximumBitwiseOr
  * 
