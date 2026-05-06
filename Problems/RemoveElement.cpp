@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode id=1995336504 lang=cpp
+ * @lc app=leetcode id=1995337075 lang=cpp
  *
  * RemoveElement
  * 
- * Difficulty: Easy
+ * Difficulty: Level
  * Category: undefined
  * Runtime: N/A
  * Memory: N/A
@@ -13,21 +13,16 @@ class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
         int n= nums.size();
+        int idx = n-1;
         for(int i=0;i<n;i++){
+            if(idx==i)break;
             if(nums[i]==val){
-                int ok = 0;
-                for(int j=i+1;j<n;j++){
-                    if(nums[j]!=val){
-                        swap(nums[j], nums[i]);
-                        ok =1;
-                        break;
-                    }
-                }
-                if(!ok)break;   
+                swap(nums[i], nums[idx]);
+                idx--;
+                i--;
             }
         }
-        int k=0;
-        for(int i=0;i<n;i++){
+        int k=0;for(int i=0;i<n;i++){
             if(nums[i]==val)break;
             else k++;
         }
